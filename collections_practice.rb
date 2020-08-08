@@ -31,3 +31,9 @@ def kesha_maker(array)
     n
   end
 end
+
+def find_a(array)
+  array.select do |word|
+    word.chr == "a"
+  end
+end
